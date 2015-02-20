@@ -8,3 +8,13 @@ F:\学习\编程类\Web安全技术学习\XSSAttachs\UnitTestProject1\bin\Debug\
 F:\学习\编程类\Web安全技术学习\XSSAttachs\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
 F:\学习\编程类\Web安全技术学习\XSSAttachs\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 F:\学习\编程类\Web安全技术学习\XSSAttachs\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\bin\Debug\StyleSheetsParser.dll
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\bin\Debug\XSSAttacksFilter.dll
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\bin\Debug\HtmlAgilityPack.dll
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\bin\Debug\StyleSheetsParser.pdb
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\bin\Debug\XSSAttacksFilter.pdb
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+E:\GIT\web-security\XSSAttachs\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

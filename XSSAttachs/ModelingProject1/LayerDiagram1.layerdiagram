@@ -3,8 +3,8 @@
   <layers>
     <layer Id="f2d0cbad-a27f-431f-975e-5250af0d9e1b" name="CssDocument">
       <dependencyToLayers>
-        <dependencyFromLayerToLayer Id="fb962e84-20ba-4eca-9766-6f0da89905aa" direction="Forward">
-          <layerMoniker Id="9609f090-bb1c-488d-a923-75c951538c3d" />
+        <dependencyFromLayerToLayer Id="2132ddc2-da19-45ef-951d-e9dd136f6a4e" direction="Forward">
+          <layerMoniker Id="f1997a98-8045-4ca4-951b-bc05e97bcc20" />
         </dependencyFromLayerToLayer>
       </dependencyToLayers>
       <references>
@@ -63,6 +63,13 @@
           </ExpandedNode>
         </reference>
       </references>
+    </layer>
+    <layer Id="f5892981-5841-4acb-a884-0243586d91d4" name="HtmlDocument">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="748fab3b-204a-4101-857f-af48cceac19f" direction="Forward">
+          <layerMoniker Id="4f3f48d9-e496-4f06-94bf-a4fadd97a6db" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
     </layer>
   </layers>
 </layerModel>

@@ -25,8 +25,8 @@ namespace UnitTestProject1
           
             Assert.IsTrue(FilterAttacks("<div style=\"position:absolute\">", str => str.IndexOf("position") == -1));
             Assert.IsTrue(FilterAttacks("<style>b { position:absolute }</style>", str => str.IndexOf("position") == -1));
-            Assert.IsTrue(FilterAttacks("<div style=\"z-index:25\">", str => str.IndexOf("position") == -1));
-            Assert.IsTrue(FilterAttacks("<style>z-index:25</style>", str => str.IndexOf("position") == -1));
+            Assert.IsTrue(FilterAttacks("<div style=\"z-index:25\">", str => str.IndexOf("z-index:25")>0));
+            Assert.IsTrue(FilterAttacks("<style>z-index:25</style>", str => str.IndexOf("z-index:25") == -1));
 
 
             Assert.IsTrue(FilterAttacks("<LINK REL=\"stylesheet\" HREF=\"javascript:alert('XSS'));\">", str => str.IndexOf("href") == -1));
