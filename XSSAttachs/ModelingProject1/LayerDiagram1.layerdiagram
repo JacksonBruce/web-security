@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8a584fa7-1be7-4ae4-aea1-2c4e7779f056" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="f2d0cbad-a27f-431f-975e-5250af0d9e1b" name="CssDocument">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="fb962e84-20ba-4eca-9766-6f0da89905aa" direction="Forward">
+          <layerMoniker Id="9609f090-bb1c-488d-a923-75c951538c3d" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="9690ddb7-58e2-4634-87f6-55d2cd99daa2" name="CssDocument">
+          <ArtifactNode Label="CssDocument" Category="CodeSchema_Class" Id="(Assembly=../StyleSheetsParser/bin/Debug/StyleSheetsParser.dll Namespace=StyleSheetsParser Type=CssDocument)" />
+          <ExpandedNode Id="(Assembly=StyleSheetsParser Namespace=StyleSheetsParser Type=CssDocument)" Label="CssDocument" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=StyleSheetsParser Namespace=StyleSheetsParser Type=(Name=CssParser ParentType=CssDocument))" Label="CssDocument‎.CssParser" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="9609f090-bb1c-488d-a923-75c951538c3d" name="XSSAttacksFilters">
+      <childLayers>
+        <layer Id="4f3f48d9-e496-4f06-94bf-a4fadd97a6db" name="HtmlFilter">
+          <references>
+            <reference Id="cadc95c3-d17a-49a7-82e9-f6885e76e0f6" name="HtmlFilter">
+              <ArtifactNode Label="HtmlFilter" Category="CodeSchema_Class" Id="(Assembly=../XSSAttacksFilters/bin/Debug/XSSAttacksFilter.dll Namespace=XSSAttacksFilter Type=HtmlFilter)" />
+              <ExpandedNode Id="(Assembly=XSSAttacksFilter Namespace=XSSAttacksFilter Type=HtmlFilter)" Label="HtmlFilter" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="f1997a98-8045-4ca4-951b-bc05e97bcc20" name="CssFilter">
+          <references>
+            <reference Id="09b86243-dd4e-49e4-ab5a-033f2923dd3f" name="CssFilter">
+              <ArtifactNode Label="CssFilter" Category="CodeSchema_Class" Id="(Assembly=../XSSAttacksFilters/bin/Debug/XSSAttacksFilter.dll Namespace=XSSAttacksFilter Type=CssFilter)" />
+              <ExpandedNode Id="(Assembly=XSSAttacksFilter Namespace=XSSAttacksFilter Type=CssFilter)" Label="CssFilter" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="7640b259-0501-45d7-b652-c1014617105a" name="FilterPolicy">
+          <references>
+            <reference Id="565c48e9-ece5-4b2a-bacb-be6b4a9a95a6" name="FilterPolicy">
+              <ArtifactNode Label="FilterPolicy" Category="CodeSchema_Class" Id="(Assembly=../XSSAttacksFilters/bin/Debug/XSSAttacksFilter.dll Namespace=XSSAttacksFilter Type=FilterPolicy)" />
+              <ExpandedNode Id="(Assembly=XSSAttacksFilter Namespace=XSSAttacksFilter Type=FilterPolicy)" Label="FilterPolicy" Category="CodeSchema_Class">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+      <references>
+        <reference Id="23d2deb6-fb56-4a5e-8330-1762460b15fd" name="XSSAttacksFilters">
+          <ArtifactNode Label="XSSAttacksFilters" Category="CodeSchema_Project" Id="(Assembly=../XSSAttacksFilters/XSSAttacksFilters.csproj)" />
+          <ExpandedNode Id="(Assembly=XSSAttacksFilter)" Label="XSSAttacksFilter.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

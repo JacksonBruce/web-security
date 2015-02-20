@@ -1,0 +1,10 @@
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\obj\Release\AntiSamy.csprojResolveAssemblyReference.cache
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\bin\Release\AntiSamy.exe
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\bin\Release\AntiSamy.pdb
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\bin\Release\Flute.dll
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\bin\Release\HtmlAgilityPack.dll
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\bin\Release\nunit.core.dll
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\bin\Release\nunit.core.interfaces.dll
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\bin\Release\nunit.framework.dll
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\obj\Release\AntiSamy.exe
+C:\Users\Jackson\Downloads\owaspantisamy-d4575adf1985\dotNet\current\source\owaspantisamy\obj\Release\AntiSamy.pdb

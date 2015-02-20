@@ -1,0 +1,10 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="AntiSamy.exe" />
+    <assembly path="AntiSamy.vshost.exe" />
+    <assembly path="..\Debug\AntiSamy.vshost.exe" />
+    <assembly path="Flute.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto" />
+</NUnitProject>

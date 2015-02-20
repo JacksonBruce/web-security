@@ -1,0 +1,9 @@
+﻿@charset "UTF-8";
+@import url("foo.css")screen,
+     print;
+@import "print.css";
+@import url(print.css);
+
+body {
+    background-color:red;
+}
