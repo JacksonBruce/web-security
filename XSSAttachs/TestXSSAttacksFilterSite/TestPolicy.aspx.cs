@@ -20,10 +20,12 @@ namespace TestXSSAttacksFilterSite
             get
             {
                 if (_filter==null)
-                    _filter = new HtmlFilter(Server.MapPath("/resources/testPolicy.config"));
+                    _filter = new HtmlFilter(PolicyFilePath);
                 return _filter;
             }
         }
+        string _policyFilePath;
+        string PolicyFilePath { get { if (_policyFilePath == null)_policyFilePath = Server.MapPath("/resources/testPolicy.config"); return _policyFilePath; } }
         protected string txt;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -42,13 +44,13 @@ namespace TestXSSAttacksFilterSite
         }
         void FilterAttacks(string str, Func<string, bool> fn,[CallerMemberName] string propertyName = null)
         {
-            txt += "\n==== in " + propertyName + " ==================================================\n原文:\n" + ((RichText)str).HtmlEncode + "\n";
+            var richtext = new RichText(str, PolicyFilePath);
+            txt += "\n==== in " + propertyName + " ==================================================\n原文:\n" + richtext.HtmlEncode + "\n";
             //这里是启用默认的安全策略
-            str = "过滤\n" + HttpUtility.HtmlEncode((RichText)str);
+            str = "过滤\n" + HttpUtility.HtmlEncode(richtext.ToString());
          
             ////这里是使用指定的安全策略
             //str = "过滤\n" + HttpUtility.HtmlEncode(Filter.Filters(str));
-
 
             txt += str + "\n状态：" + (fn(str) ? "成功！" : "失败");
         }

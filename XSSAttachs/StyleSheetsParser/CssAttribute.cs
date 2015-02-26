@@ -9,9 +9,9 @@ namespace StyleSheetsParser
 {
     public class CssAttribute:CssRule
     {
-        public CssAttribute(string name, string value=null)
+        public CssAttribute(string name, string value = null)
             : base(name)
-        { this.Value =Regex.Replace(  value.Replace("\n", " ").Replace("\r", ""),@"\s{2}"," "); }
+        { if (value != null) { this.Value = Regex.Replace(value.Trim().Replace("\n", " ").Replace("\r", ""), @"\s{2}", " "); } }
         public string Value { get;set; }
         protected override string GetCssString()
         {

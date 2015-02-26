@@ -20,3 +20,10 @@ F:\学习\编程类\Web安全技术学习\XSSAttachs\XSSAttacksFilters\bin\Debug
 F:\学习\编程类\Web安全技术学习\XSSAttachs\XSSAttacksFilters\obj\Debug\XSSAttacksFilters.csprojResolveAssemblyReference.cache
 F:\学习\编程类\Web安全技术学习\XSSAttachs\XSSAttacksFilters\obj\Debug\XSSAttacksFilter.dll
 F:\学习\编程类\Web安全技术学习\XSSAttachs\XSSAttacksFilters\obj\Debug\XSSAttacksFilter.pdb
+E:\GIT\web-security\XSSAttachs\XSSAttacksFilters\bin\Debug\XSSAttacksFilter.dll
+E:\GIT\web-security\XSSAttachs\XSSAttacksFilters\bin\Debug\XSSAttacksFilter.pdb
+E:\GIT\web-security\XSSAttachs\XSSAttacksFilters\bin\Debug\StyleSheetsParser.dll
+E:\GIT\web-security\XSSAttachs\XSSAttacksFilters\bin\Debug\StyleSheetsParser.pdb
+E:\GIT\web-security\XSSAttachs\XSSAttacksFilters\obj\Debug\XSSAttacksFilters.csprojResolveAssemblyReference.cache
+E:\GIT\web-security\XSSAttachs\XSSAttacksFilters\obj\Debug\XSSAttacksFilter.dll
+E:\GIT\web-security\XSSAttachs\XSSAttacksFilters\obj\Debug\XSSAttacksFilter.pdb

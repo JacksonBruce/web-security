@@ -191,6 +191,7 @@ namespace StyleSheetsParser
                             {
                                 attrName = sb.ToString();
                                 sb.Clear();
+                                RemoveSpace();
                             }
                         }
                         else if (ch == ';' || ch == '}')

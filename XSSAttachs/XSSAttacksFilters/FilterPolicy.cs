@@ -141,8 +141,8 @@ namespace XSSAttacksFilter
         /// <returns></returns>
         public static bool ValidateAttribute(PolicyAttribute attr, string value)
         {
-            if (attr == null) return false;
-            value = HtmlEntity.DeEntitize(value);
+            if (attr == null || string.IsNullOrWhiteSpace(value)) return false;
+            value = HtmlEntity.DeEntitize(value.Trim());
             ////验证是否在限定的值之内
             if (attr.AllowedValues != null)
             {

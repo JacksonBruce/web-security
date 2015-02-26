@@ -37,7 +37,7 @@ namespace XSSAttacksFilter
             var a = allowedAttributes.ContainsKey(name) ? allowedAttributes[name] : null;
             if (a == null)
             {
-                a = Policy.GlobalHtmlAttribute(name);
+                a = Policy.CommonHtmlAttribute(name);// Policy.GlobalHtmlAttribute(name);
             }
             return a;
         }
