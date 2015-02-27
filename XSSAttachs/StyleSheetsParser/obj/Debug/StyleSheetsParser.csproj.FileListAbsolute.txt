@@ -14,6 +14,5 @@ F:\学习\编程类\Web安全技术学习\XSSAttachs\StyleSheetsParser\obj\Debug
 F:\学习\编程类\Web安全技术学习\XSSAttachs\StyleSheetsParser\obj\Debug\StyleSheetsParser.csprojResolveAssemblyReference.cache
 E:\GIT\web-security\XSSAttachs\StyleSheetsParser\bin\Debug\StyleSheetsParser.dll
 E:\GIT\web-security\XSSAttachs\StyleSheetsParser\bin\Debug\StyleSheetsParser.pdb
-E:\GIT\web-security\XSSAttachs\StyleSheetsParser\obj\Debug\StyleSheetsParser.csprojResolveAssemblyReference.cache
 E:\GIT\web-security\XSSAttachs\StyleSheetsParser\obj\Debug\StyleSheetsParser.dll
 E:\GIT\web-security\XSSAttachs\StyleSheetsParser\obj\Debug\StyleSheetsParser.pdb

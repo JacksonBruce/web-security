@@ -32,13 +32,34 @@ namespace XSSAttacksFilter
             get;
             set;
         }
+        string[] MergerArray(string[] First, string[] Second) {
+
+            string[] arr = new string[First.Length + Second.Length];
+            First.CopyTo(arr, 0);
+            Second.CopyTo(arr, First.Length);
+            return arr.Distinct().ToArray();
+        }
+        void MergerRules(PolicyHtmlAttribute a, string[] AllowedRegExp, string[] AllowedValues)
+        {
+            if (a == null) return;
+            if (AllowedRegExp != null)
+            {
+                if (a.AllowedRegExp == null) { a.AllowedRegExp = AllowedRegExp; }
+                else { a.AllowedRegExp = MergerArray(a.AllowedRegExp, AllowedRegExp); }
+            }
+            if (AllowedValues != null)
+            {
+                if (a.AllowedValues == null) { a.AllowedRegExp = AllowedRegExp; }
+                else { a.AllowedRegExp = MergerArray(a.AllowedRegExp, AllowedRegExp); }
+            }
+        }
         public PolicyHtmlAttribute AllowedAttribute(string name)
         {
-            var a = allowedAttributes.ContainsKey(name) ? allowedAttributes[name] : null;
-            if (a == null)
-            {
-                a = Policy.CommonHtmlAttribute(name);// Policy.GlobalHtmlAttribute(name);
-            }
+            PolicyHtmlAttribute a = allowedAttributes.ContainsKey(name) ? allowedAttributes[name] : null,g=Policy.GlobalHtmlAttribute(name),c=Policy.CommonHtmlAttribute(name);
+            if (a == null){a = g;}
+            else if(g!=null){MergerRules(a, g.AllowedRegExp, g.AllowedValues);}
+            if (a != null&&c!=null)
+            {MergerRules(a, c.AllowedRegExp, c.AllowedValues);}
             return a;
         }
         
