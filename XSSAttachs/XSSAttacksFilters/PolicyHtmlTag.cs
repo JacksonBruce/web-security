@@ -49,8 +49,8 @@ namespace XSSAttacksFilter
             }
             if (AllowedValues != null)
             {
-                if (a.AllowedValues == null) { a.AllowedRegExp = AllowedRegExp; }
-                else { a.AllowedRegExp = MergerArray(a.AllowedRegExp, AllowedRegExp); }
+                if (a.AllowedValues == null) { a.AllowedValues = AllowedValues; }
+                else { a.AllowedValues = MergerArray(a.AllowedValues, AllowedValues); }
             }
         }
         public PolicyHtmlAttribute AllowedAttribute(string name)
